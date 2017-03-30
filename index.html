@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>招商云-国内领先的企业渠道信息化建设服务平台</title>
+    <link rel="stylesheet" href="sass/index.css">
+    <style></style>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        window.onload = function ()
+        {
+            let oUl = document.getElementById ('ul');
+            let t1=null;
+            let t2=null;
+            let speed = 0;
+            function  funny()
+            {
+                t1 && clearInterval(t1);
+                t1 = setInterval (function ()
+                {
+                    speed -=1383/20;
+                    if(speed<=-1383){
+                        speed=0;
+                        oUl.appendChild (oUl.children[0]);
+                        t1 && clearInterval(t1);
+                        t2 && clearTimeout(t2);
+                        t2=setTimeout(funny,2500);
+                    }
+                    oUl.style.left = speed + "px";
+                },40);
+            }
+            funny ();
+            console.log('本人正在找工作 如果你需要一个可靠的WEB前端开发人员--给个机会呗 本人吃苦耐劳 技术精湛 是不可多得的自驱动技术人才<br>+++++++++<hr>个人邮箱: chaung0596@sina.com')
+        }
+    </script>
+</head>
+<body>
+<div class="main">
+    <!--头部-->
+    <div class="wrap">
+        <header class="header clearFloat">
+            <h1 class="logo">
+                <a href="javascript:;"></a>
+            </h1>
+            <ul class="header_nav">
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">解决方案</a></li>
+                <li><a href="javascript:;">产品价格</a></li>
+                <li><a href="javascript:;">客户案例</a></li>
+                <li><a href="javascript:;">免费下载</a></li>
+                <li><a href="javascript:;">营销帮助</a></li>
+                <li><a href="javascript:;">关于我们</a></li>
+            </ul>
+            <div class="user">
+                <span>登录</span>
+                |
+                <span>注册</span>
+            </div>
+        </header>
+    </div>
+    <!--头部结束-->
+</div>
+<!--banner-->
+<div class="banner">
+    <ul class="banner_img clearFloat" id="ul">
+        <li><a href="javascript:;"><img src="image/banner.jpg" alt="banner1"></a></li>
+        <li><a href="javascript:;"><img src="image/banner.jpg" alt="banner1"></a></li>
+        <li><a href="javascript:;"><img src="image/banner.jpg" alt="banner1"></a></li>
+    </ul>
+    <div class="banner_footer"></div>
+    <ol class="banner_btn">
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+    </ol>
+</div>
+<!--banner结束-->
+<!--内容-->
+<div class="content ">
+    <div class="con_top">
+        <div class="con_top_top"></div>
+        <div class="con_top_middle"></div>
+        <div class="con_top_bot"></div>
+    </div>
+    <div class="cont_zy">
+        <div class="bor"></div>
+        <div class="cont_one">
+            <img src="image/zy_zh-w28.png" alt="一楼">
+        </div>
+    </div>
+    <div class="zy_guild clearFloat">
+        <div style="margin-left: 0;" class="zy_guild_first">
+            <div class="guild_pc">
+                <img src="image/1-w30.png" alt="">
+            </div>
+            <div class="guild_txt">
+                <h3>客服系统</h3>
+                <p>智能多样化客服平台接待多渠道的客户</p>
+            </div>
+            <div class="guild_img"></div>
+
+        </div>
+        <div class="zy_guild_first">
+            <div class="guild_pc">
+                <img src="image/2-w31.png" alt="">
+            </div>
+            <div class="guild_txt">
+                <h3>客服系统</h3>
+                <p>智能多样化客服平台接待多渠道的客户</p>
+            </div>
+            <div class="guild_img">
+            </div>
+
+        </div>
+        <div class="zy_guild_first">
+            <div class="guild_pc">
+                <img src="image/3-w32.png" alt="">
+            </div>
+            <div class="guild_txt">
+                <h3>客服系统</h3>
+                <p>智能多样化客服平台接待多渠道的客户</p>
+            </div>
+            <div class="guild_img">
+            </div>
+
+        </div>
+        <div class="zy_guild_first">
+            <div class="guild_pc">
+                <img src="image/4-w33.png" alt="">
+            </div>
+            <div class="guild_txt">
+                <h3>客服系统</h3>
+                <p>智能多样化客服平台接待多渠道的客户</p>
+            </div>
+            <div class="guild_img">
+            </div>
+
+        </div>
+        <div class="zy_guild_first">
+            <div class="guild_pc">
+                <img src="image/5-w34.png" alt="">
+            </div>
+            <div class="guild_txt">
+                <h3>客服系统</h3>
+                <p>智能多样化客服平台接待多渠道的客户</p>
+            </div>
+            <div class="guild_img">
+            </div>
+
+        </div>
+        <div class="zy_guild_first">
+            <div class="guild_pc">
+                <img src="image/6-w38.png" alt="">
+            </div>
+            <div class="guild_txt">
+                <h3>客服系统</h3>
+                <p>智能多样化客服平台接待多渠道的客户</p>
+            </div>
+            <div class="guild_img">
+            </div>
+
+        </div>
+        <div class="zy_guild_first">
+            <div class="guild_pc">
+                <img src="image/7-w35.png" alt="">
+            </div>
+            <div class="guild_txt">
+                <h3>客服系统</h3>
+                <p>智能多样化客服平台接待多渠道的客户</p>
+            </div>
+        </div>
+        <div class="zy_bot">
+            <div class="zy_left"></div>
+            <div class="zy_bot_cent">
+                <div class="zy_bot_img">
+                    <img src="image/p1-w36.png" alt="">
+                </div>
+                <div class="connect"></div>
+                <div class="bot_title">官网
+                    <span></span>
+                </div>
+            </div>
+            <div class="zy_bot_cent">
+                <div class="zy_bot_img">
+                    <img src="image/p2-w37.png" alt="">
+                </div>
+                <div class="connect"></div>
+                <div class="bot_title">无线电
+                    <span></span>
+                </div>
+            </div>
+            <div class="zy_bot_cent">
+                <div class="zy_bot_img">
+                    <img src="image/p3-w8.png" alt="">
+                </div>
+                <div class="connect"></div>
+                <div class="bot_title">微网站
+                    <span></span>
+                </div>
+            </div>
+            <div style="width: 130px;" class="zy_bot_cent">
+                <div class="zy_bot_img">
+                    <img src="image/p4-w9.png" alt="">
+                </div>
+                <div class="bot_title">APP
+                    <span></span>
+                </div>
+            </div>
+            <div class="zy_right"></div>
+        </div>
+    </div>
+    <div class="cont_zy">
+        <div class="bor"></div>
+        <div class="cont_one">
+            <img src="image/jue_fa-w10.png" alt="一楼">
+        </div>
+    </div>
+    <div class="cont_middle ">
+        <div class="marginAuto clearFloat">
+            <ul class="contLeft">
+                <li class="clearFloat"><img src="image/z1-w11.png" alt=""><p>适用手机/PC网站尽享全网商机</p></li>
+                <li class="clearFloat"><img src="image/z2-w39.png" alt=""><p>即时在线沟通捕获更多商机</p></li>
+                <li class="clearFloat"><img src="image/z3-w41.png" alt=""><p>客服KPI数据分析实时掌握客服工作动态</p></li>
+                <li class="clearFloat"><img src="image/z4-w12.png" alt=""><p>智能助手保证24*7小时客问必答</p></li>
+                <li class="clearFloat"><img src="image/z5-w40.png" alt=""><p>通话轨迹记录分析用户习惯</p></li>
+            </ul>
+            <div class="center_radius">
+                <div class="radius_back">
+                </div>
+                <div class="radiu_last"></div>
+            </div>
+            <ul class="contRig">
+                <li><img src="image/z6-w42.png" alt=""><p>营销实时监控,把握方向动态</p></li>
+                <li><img src="image/z7-w43.png" alt=""><p>全面数据统计,提供决策依据</p></li>
+                <li><img src="image/z8-w45.png" alt=""><p>客户资料管理,云端存储不流失</p></li>
+                <li><img src="image/z9-w44.png" alt=""><p>语音导航 引导用户,一键专业客服沟通</p></li>
+                <li><img src="image/z10-w46.png" alt=""><p>录音功能随时查看,收听方便回顾通话</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="cont_zy">
+        <div class="bor"></div>
+        <div class="cont_one">
+            <img src="image/al_zs-w50.png" alt="一楼">
+        </div>
+    </div>
+    <div class="con_bott">
+        <ul class="con_bot_nav clearFloat">
+            <li class="mar">
+                <img src="image/pic01-w51.jpeg" alt="">
+                <h4>豫味一品</h4>
+                <p>无锡豫味一品餐饮管理有限公司,创建于2010年……</p>
+            </li>
+            <li>
+                <img src="image/pic02-w52.jpeg" alt="">
+                <h4>青花妙彩</h4>
+                <p>青花妙彩青花瓷画、融汇中西,兼收并蓄……</p>
+            </li>
+            <li>
+                <img src="image/pic03-w53.jpeg" alt="">
+                <h4>张真牛</h4>
+                <p>徽面是带有浓郁安徽地域风味和徽派文化的面食品种……</p>
+            </li>
+            <li>
+                <img src="image/pic04-w54.jpeg" alt="">
+                <h4>客家太和堂</h4>
+                <p>客家太和堂是一个专门从事养生茶的专业品牌……</p>
+            </li>
+        </ul>
+        <span class="btn_left"></span>
+        <span class="btn_right"></span>
+    </div>
+</div>
+<!--页面底部-->
+<footer>
+    <div class="foot_pic"></div>
+    <div class="foot_back">
+        <img src="image/ftBg-w21.png" alt="" class="img2">
+        <div class="clearFloat fot_auto">
+            <div class="ftBox">
+                <h3>帮助中心</h3>
+                <p>常见问题</p>
+                <p>在线留言</p>
+            </div>
+            <div class="ftBox ftBox2">
+                <h3>产品中心</h3>
+                <p>渠道建站</p>
+                <p>微信云</p>
+                <p>网易</p>
+                <p>快信</p>
+                <p>招商报</p>
+                <p>OA系统</p>
+            </div>
+            <div class="ftBox ftBox3">
+                <h3>联系我们</h3>
+                <p>邮箱：server@zhaoshangcloud.com</p>
+                <p>热线电话：400-838-1016</p>
+            </div>
+            <div class="service">
+                <h3>微信公众号</h3>
+                <img src="image/codeImg-w56.png" alt="" class="img">
+                <p>businessyun</p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright ">渠道网络 版权所有Copyright @ 安徽省渠道网络技术开发有限公司. All rights reserved 皖B2-20100064-48</div>
+</footer>
+<script>
+
+</script>
+</body>
+</html>
